@@ -13,6 +13,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :production do
+	gem 'rails_12factor'
+end
+
 # gem 'bcrypt-ruby', '~> 3.1.2'
 # gem 'unicorn'
 # gem 'capistrano', group: :development
